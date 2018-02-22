@@ -1,12 +1,15 @@
 *
 {
 	border: 0;
-	margin: 0;
+	margin: 0.0px;
 	padding: 0;	
+   
 }
 
 body, html{
     font-family: 'Karla', sans-serif;
+    width: 100%;
+    height: 100%;
 }
 
 .barra-nav{
@@ -32,6 +35,11 @@ body, html{
     margin-bottom:120px;
 
     
+}
+footer{
+    position: fixed;
+    bottom: 0;
+    min-width: 1380px;
 }
 .footer-nav{
     background: #F2F2F2;
@@ -123,5 +131,12 @@ hr {
 .texto-google{
     margin-top: 20px;
 }
+.float-left{
+   float: left;
+}
+.float-right{
 
+    float:right;
+    padding-right: 10px;
+}
 

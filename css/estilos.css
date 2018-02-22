@@ -1,10 +1,61 @@
-
-a{
-    text-decoration: none;
-    display: inline-block;
-    padding: 0.5px;
-    
+*
+{
+	border: 0;
+	margin: 0;
+	padding: 0;	
+}
+body, html{
+    font-family: 'Karla', sans-serif;
 }
 .barra-nav{
     text-align: right;
+    height: 35px;
 }
+.barra-pais{
+    background: #F2F2F2;
+    color:#6F6F6F;
+}
+
+.contenedor-principal{
+    text-align: center;
+}
+.footer-nav{
+    background: #F2F2F2;
+    color:#6F6F6F;
+}
+hr {
+    display: block;
+    margin-top: 0.0em;
+    margin-bottom: 0.0em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+}
+.input-box{
+    width: 60%;
+    background: chartreuse;
+}
+.logo{
+    text-align: center;
+    
+    
+}
+.logo-google{
+    width: 340px;
+    height: 240px;
+}
+.nav-principal-item{
+    text-decoration: none;
+    display: inline-block;
+    padding: 10.5px;
+    
+    
+}
+.nav-sec-item{
+    text-decoration: none;
+    padding: 10.5px;
+    color:#6F6F6F;
+}
+
+
